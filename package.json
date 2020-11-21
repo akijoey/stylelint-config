@@ -1,0 +1,56 @@
+{
+  "name": "@akijoey/stylelint-config",
+  "version": "0.0.1",
+  "description": "Personal stylelint config.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".stylelintrc.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akijoey/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akijoey/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/akijoey/stylelint-config#readme",
+  "devDependencies": {
+    "@akijoey/eslint-config": "latest",
+    "@akijoey/prettier-config": "latest",
+    "eslint": "^7.14.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.8.0"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@akijoey"
+  },
+  "prettier": "@akijoey/prettier-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,json,yml,md}": "prettier --write"
+  }
+}
