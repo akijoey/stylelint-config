@@ -27,12 +27,9 @@ Add to your stylelint config:
 
 [npm-image]: https://img.shields.io/npm/v/@akijoey/stylelint-config
 [npm-url]: https://www.npmjs.com/package/@akijoey/stylelint-config
-
 [build-image]: https://img.shields.io/github/workflow/status/akijoey/stylelint-config/Build
 [build-url]: https://github.com/akijoey/stylelint-config/actions/workflows/build.yml
-
 [coverage-image]: https://img.shields.io/codecov/c/gh/akijoey/stylelint-config
 [coverage-url]: https://codecov.io/gh/akijoey/stylelint-config
-
 [license-image]: https://img.shields.io/github/license/akijoey/stylelint-config
-[license-url]: https://github.com/akijoey/stylelint-config/blob/master/LICENSE
+[license-url]: https://github.com/akijoey/stylelint-config/blob/main/LICENSE
