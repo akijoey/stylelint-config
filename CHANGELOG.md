@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/akijoey/stylelint-config/compare/v1.0.0...v1.0.1) (2021-09-18)
+
+
+### Bug Fixes
+
+* release config ([c131537](https://github.com/akijoey/stylelint-config/commit/c13153795a106dd23011a0308a0d2d107a884661))
+
 # 1.0.0 (2021-08-30)
 
 
