@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/akijoey/stylelint-config/compare/v1.0.1...v1.0.2) (2021-11-16)
+
+
+### Bug Fixes
+
+* upgrade devkit ([6163f7b](https://github.com/akijoey/stylelint-config/commit/6163f7bb0fcc722e4a0fbe7f193de759b68a6f80))
+
 ## [1.0.1](https://github.com/akijoey/stylelint-config/compare/v1.0.0...v1.0.1) (2021-09-18)
 
 
