@@ -19,10 +19,11 @@
     ".stylelintrc.js"
   ],
   "scripts": {
-    "lint": "dev-scripts lint",
-    "test": "dev-scripts test",
-    "format": "dev-scripts format",
-    "prepare": "dev-scripts hook"
+    "lint": "devkit lint",
+    "test": "devkit test",
+    "format": "devkit format",
+    "prepare": "devkit hook",
+    "release": "devkit release"
   },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
@@ -34,21 +35,6 @@
     "stylelint": "^13.8.0"
   },
   "devDependencies": {
-    "@akijoey/dev-scripts": "latest"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": "@akijoey"
-  },
-  "prettier": "@akijoey/prettier-config",
-  "commitlint": {
-    "extends": "@akijoey/commitlint-config"
-  },
-  "release": {
-    "extends": "@akijoey/semantic-release-config"
-  },
-  "lint-staged": {
-    "*.js": "npm run lint",
-    "*.{js,json,yml}": "npm run format"
+    "@akijoey/devkit": "latest"
   }
 }
