@@ -1,5 +1,10 @@
 // .stylelintrc.js
 
+const path = require('path')
+
+// https://github.com/stylelint/stylelint/issues/5769
+const resolve = dir => path.join(process.cwd(), dir)
+
 const extend = syntax => {
   return [
     'stylelint-config-standard',
@@ -13,19 +18,19 @@ module.exports = {
   extends: extend(),
   overrides: [
     {
-      files: ['**/*.scss'],
+      files: [resolve('**/*.scss')],
       extends: extend('scss')
     },
     {
-      files: ['**/*.sass'],
+      files: [resolve('**/*.sass')],
       extends: extend('sass')
     },
     {
-      files: ['**/*.less'],
+      files: [resolve('**/*.less')],
       extends: extend('less')
     },
     {
-      files: ['**/*.styl'],
+      files: [resolve('**/*.styl')],
       extends: extend('stylus')
     }
   ]
