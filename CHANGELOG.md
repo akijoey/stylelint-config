@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/akijoey/stylelint-config/compare/v1.0.4...v1.0.5) (2021-12-13)
+
+
+### Bug Fixes
+
+* custom syntax ([7f7759b](https://github.com/akijoey/stylelint-config/commit/7f7759b88f4f6ef7adad890f28fe3878019962f1))
+
 ## [1.0.4](https://github.com/akijoey/stylelint-config/compare/v1.0.3...v1.0.4) (2021-12-13)
 
 
