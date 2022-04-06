@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/akijoey/stylelint-config/compare/v1.0.5...v1.0.6) (2022-04-06)
+
+
+### Bug Fixes
+
+* scss operator after ([1b186e9](https://github.com/akijoey/stylelint-config/commit/1b186e93c7689e09d38f87f9736f2c4fb691f565))
+
 ## [1.0.5](https://github.com/akijoey/stylelint-config/compare/v1.0.4...v1.0.5) (2021-12-13)
 
 
