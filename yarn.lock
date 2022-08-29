@@ -54,34 +54,34 @@
   integrity sha512-kQUGoqh+Shq9YCZrp8ywVyQL3/F4asSYP0KCSN2JiMpM2OQgYklJV/0WFJYLlsGInXvkPB8+ufxwjxiFt+nxGA==
 
 "@akijoey/semantic-release-config@latest":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@akijoey/semantic-release-config/-/semantic-release-config-1.1.6.tgz#5c0df03158693349eaac26181758556ee54b6693"
-  integrity sha512-/GTI2v9j4PJt4S8ld+/gjIb/eJl/3UZesCiZjgyRbY/znsC6ZLXiSurSSvhi6gbJmEs76PiixfOEabc8Shjy/Q==
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@akijoey/semantic-release-config/-/semantic-release-config-1.1.7.tgz#8452c84293839d41b8bc9863276be7162f961870"
+  integrity sha512-MFoMlQI0vRoXhIVZCE8fa/+wfHjJk7Zzfse/6lTHPyjArqT34AKzJ0wTIFfYI/i/aw4Zz2QTJYdK66fA+UddRg==
   dependencies:
     "@semantic-release/changelog" "^6.0.1"
     "@semantic-release/git" "^10.0.1"
     semantic-release-maven "^1.1.5"
-    semantic-release-pypi "^2.4.3"
+    semantic-release-pypi "^2.5.0"
 
 "@akijoey/stylelint-config@latest":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@akijoey/stylelint-config/-/stylelint-config-1.0.6.tgz#d3a332a9fe6c012be2a004c6fafa596b11ce8633"
-  integrity sha512-aOJp44h1ISVfQARuBQBuOFhWIlv8zV5WX2sI9l1E5US8cahQ6LzLQ6vA/lpKZdTyvoyoYOgMtZXHvBvHnK8BCw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@akijoey/stylelint-config/-/stylelint-config-1.0.7.tgz#8692b3398a130772969623029979a5e673ef4c09"
+  integrity sha512-a38Xe4bSpl5ktjyHJiZo1L3U4+fT0cG3be+VyNuVmVZyV3dufkTtXttoToJjjDeVfjxGt0I9xfKHww0x+bpK7g==
   dependencies:
-    postcss "^8.4.4"
-    postcss-less "^5.0.0"
+    postcss "^8.4.16"
+    postcss-less "^6.0.0"
     postcss-sass "^0.5.0"
-    postcss-scss "^4.0.2"
-    postcss-styl "^0.9.0"
+    postcss-scss "^4.0.4"
+    postcss-styl "^0.11.1"
     stylelint-config-prettier "^9.0.3"
     stylelint-config-recess-order "^3.0.0"
-    stylelint-config-standard "^24.0.0"
-    stylelint-config-standard-scss "^3.0.0"
+    stylelint-config-standard "^28.0.0"
+    stylelint-config-standard-scss "^5.0.0"
 
 "@akijoey/tsconfig@latest":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@akijoey/tsconfig/-/tsconfig-1.0.2.tgz#505412f73d6430b5930da74f5e471a8631d5302a"
-  integrity sha512-y2Te/HrqL0AFUU48qo60ClWPP3uZWupZCCRDK62UTDLSUqYRRgv+z5sAYM+tqlDcgS4h2Fasetfyoo1sn0yE1g==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@akijoey/tsconfig/-/tsconfig-1.0.3.tgz#c36d2b478a363a933ab509db5806f5d492ab7301"
+  integrity sha512-gWn2IZd0Ql/C9AYZ9FlgZDWEQy8yXj9zL+jYhgtie8Civ0SEIGZqkx3gjs4l3kwtU1OYpfNa7dVLpS5A3QF3ng==
 
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
@@ -2371,13 +2371,6 @@ debug@^3.2.7:
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
   dependencies:
     ms "^2.1.1"
-
-debug@~3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
 
 debuglog@^1.0.1:
   version "1.0.1"
@@ -5076,7 +5069,7 @@ mkdirp-infer-owner@*, mkdirp-infer-owner@^2.0.0:
     infer-owner "^1.0.4"
     mkdirp "^1.0.3"
 
-mkdirp@*, mkdirp@^1.0.3, mkdirp@^1.0.4, mkdirp@~1.0.4:
+mkdirp@*, mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
@@ -5331,76 +5324,76 @@ npm@^7.0.0:
   resolved "https://registry.yarnpkg.com/npm/-/npm-7.24.2.tgz#861117af8241bea592289f22407230e5300e59ca"
   integrity sha512-120p116CE8VMMZ+hk8IAb1inCPk4Dj3VZw29/n2g6UI77urJKVYb7FZUDW8hY+EBnfsjI/2yrobBgFyzo7YpVQ==
   dependencies:
-    "@isaacs/string-locale-compare" "^1.1.0"
-    "@npmcli/arborist" "^2.9.0"
-    "@npmcli/ci-detect" "^1.2.0"
-    "@npmcli/config" "^2.3.0"
-    "@npmcli/map-workspaces" "^1.0.4"
-    "@npmcli/package-json" "^1.0.1"
-    "@npmcli/run-script" "^1.8.6"
-    abbrev "~1.1.1"
-    ansicolors "~0.3.2"
-    ansistyles "~0.1.3"
-    archy "~1.0.0"
-    cacache "^15.3.0"
-    chalk "^4.1.2"
-    chownr "^2.0.0"
-    cli-columns "^3.1.2"
-    cli-table3 "^0.6.0"
-    columnify "~1.5.4"
-    fastest-levenshtein "^1.0.12"
-    glob "^7.2.0"
-    graceful-fs "^4.2.8"
-    hosted-git-info "^4.0.2"
-    ini "^2.0.0"
-    init-package-json "^2.0.5"
-    is-cidr "^4.0.2"
-    json-parse-even-better-errors "^2.3.1"
-    libnpmaccess "^4.0.2"
-    libnpmdiff "^2.0.4"
-    libnpmexec "^2.0.1"
-    libnpmfund "^1.1.0"
-    libnpmhook "^6.0.2"
-    libnpmorg "^2.0.2"
-    libnpmpack "^2.0.1"
-    libnpmpublish "^4.0.1"
-    libnpmsearch "^3.1.1"
-    libnpmteam "^2.0.3"
-    libnpmversion "^1.2.1"
-    make-fetch-happen "^9.1.0"
-    minipass "^3.1.3"
-    minipass-pipeline "^1.2.4"
-    mkdirp "^1.0.4"
-    mkdirp-infer-owner "^2.0.0"
-    ms "^2.1.2"
-    node-gyp "^7.1.2"
-    nopt "^5.0.0"
-    npm-audit-report "^2.1.5"
-    npm-install-checks "^4.0.0"
-    npm-package-arg "^8.1.5"
-    npm-pick-manifest "^6.1.1"
-    npm-profile "^5.0.3"
-    npm-registry-fetch "^11.0.0"
-    npm-user-validate "^1.0.1"
-    npmlog "^5.0.1"
-    opener "^1.5.2"
-    pacote "^11.3.5"
-    parse-conflict-json "^1.1.1"
-    qrcode-terminal "^0.12.0"
-    read "~1.0.7"
-    read-package-json "^4.1.1"
-    read-package-json-fast "^2.0.3"
-    readdir-scoped-modules "^1.1.0"
-    rimraf "^3.0.2"
-    semver "^7.3.5"
-    ssri "^8.0.1"
-    tar "^6.1.11"
-    text-table "~0.2.0"
-    tiny-relative-date "^1.3.0"
-    treeverse "^1.0.4"
-    validate-npm-package-name "~3.0.0"
-    which "^2.0.2"
-    write-file-atomic "^3.0.3"
+    "@isaacs/string-locale-compare" "*"
+    "@npmcli/arborist" "*"
+    "@npmcli/ci-detect" "*"
+    "@npmcli/config" "*"
+    "@npmcli/map-workspaces" "*"
+    "@npmcli/package-json" "*"
+    "@npmcli/run-script" "*"
+    abbrev "*"
+    ansicolors "*"
+    ansistyles "*"
+    archy "*"
+    cacache "*"
+    chalk "*"
+    chownr "*"
+    cli-columns "*"
+    cli-table3 "*"
+    columnify "*"
+    fastest-levenshtein "*"
+    glob "*"
+    graceful-fs "*"
+    hosted-git-info "*"
+    ini "*"
+    init-package-json "*"
+    is-cidr "*"
+    json-parse-even-better-errors "*"
+    libnpmaccess "*"
+    libnpmdiff "*"
+    libnpmexec "*"
+    libnpmfund "*"
+    libnpmhook "*"
+    libnpmorg "*"
+    libnpmpack "*"
+    libnpmpublish "*"
+    libnpmsearch "*"
+    libnpmteam "*"
+    libnpmversion "*"
+    make-fetch-happen "*"
+    minipass "*"
+    minipass-pipeline "*"
+    mkdirp "*"
+    mkdirp-infer-owner "*"
+    ms "*"
+    node-gyp "*"
+    nopt "*"
+    npm-audit-report "*"
+    npm-install-checks "*"
+    npm-package-arg "*"
+    npm-pick-manifest "*"
+    npm-profile "*"
+    npm-registry-fetch "*"
+    npm-user-validate "*"
+    npmlog "*"
+    opener "*"
+    pacote "*"
+    parse-conflict-json "*"
+    qrcode-terminal "*"
+    read "*"
+    read-package-json "*"
+    read-package-json-fast "*"
+    readdir-scoped-modules "*"
+    rimraf "*"
+    semver "*"
+    ssri "*"
+    tar "*"
+    text-table "*"
+    tiny-relative-date "*"
+    treeverse "*"
+    validate-npm-package-name "*"
+    which "*"
+    write-file-atomic "*"
 
 npmlog@*, npmlog@^6.0.0, npmlog@^6.0.2:
   version "6.0.2"
@@ -5755,11 +5748,6 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-postcss-less@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-less/-/postcss-less-5.0.0.tgz#3fa361ed8e52a9c3e6e4fdb9bb95fd9032f3c62b"
-  integrity sha512-djK6NlApALJeBnNx7CzLatq64eMF3BCyzBH+faYPxrvNHHM/YCimJ6XQkgWgtim2G89EzdQG4Ed0lGNCXPfD7A==
-
 postcss-less@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/postcss-less/-/postcss-less-6.0.0.tgz#463b34c60f53b648c237f569aeb2e09149d85af4"
@@ -5817,23 +5805,12 @@ postcss-styl@^0.11.1:
     postcss "^7.0.27 || ^8.0.0"
     stylus "^0.57.0"
 
-postcss-styl@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/postcss-styl/-/postcss-styl-0.9.0.tgz#007086deae48c459ded3e2cdae300dc3051ff6b6"
-  integrity sha512-EgES+TZXUi7LkFnSIf7R6sE80kepOFrlRVLSSxPKn3Bz036VR8PYidcBKvLGwfZ91fe+tEZ9iHGekb0OLtbvfg==
-  dependencies:
-    debug "^4.1.1"
-    fast-diff "^1.2.0"
-    lodash.sortedlastindex "^4.1.0"
-    postcss "^7.0.27 || ^8.0.0"
-    stylus "^0.55.0"
-
 postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-"postcss@^7.0.27 || ^8.0.0", postcss@^8.2.14, postcss@^8.3.11, postcss@^8.4.16, postcss@^8.4.4:
+"postcss@^7.0.27 || ^8.0.0", postcss@^8.2.14, postcss@^8.3.11, postcss@^8.4.16:
   version "8.4.16"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.16.tgz#33a1d675fac39941f5f445db0de4db2b6e01d43c"
   integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
@@ -6273,7 +6250,7 @@ semantic-release-maven@^1.1.5:
     fs-extra "^10.0.0"
     xml2js "^0.4.23"
 
-semantic-release-pypi@^2.4.3:
+semantic-release-pypi@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/semantic-release-pypi/-/semantic-release-pypi-2.5.0.tgz#9a133dc44d899630cafba70833ef00c6e5f0a8c0"
   integrity sha512-ZQX8OAH696uSRhAfqbteus+JpxO6kLflD1Ewgp0/yOppTBX4Zky2LFgTTKBn+ncWe+NHlnSK5Kov9ow+L+nfTw==
@@ -6712,15 +6689,6 @@ stylelint-config-recess-order@^3.0.0:
   dependencies:
     stylelint-order "5.x"
 
-stylelint-config-recommended-scss@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-5.0.2.tgz#193f483861c76a36ece24c52eb6baca4838f4a48"
-  integrity sha512-b14BSZjcwW0hqbzm9b0S/ScN2+3CO3O4vcMNOw2KGf8lfVSwJ4p5TbNEXKwKl1+0FMtgRXZj6DqVUe/7nGnuBg==
-  dependencies:
-    postcss-scss "^4.0.2"
-    stylelint-config-recommended "^6.0.0"
-    stylelint-scss "^4.0.0"
-
 stylelint-config-recommended-scss@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-7.0.0.tgz#db16b6ae6055e72e3398916c0f13d6eb685902a2"
@@ -6729,11 +6697,6 @@ stylelint-config-recommended-scss@^7.0.0:
     postcss-scss "^4.0.2"
     stylelint-config-recommended "^8.0.0"
     stylelint-scss "^4.0.0"
-
-stylelint-config-recommended@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-6.0.0.tgz#fd2523a322836005ad9bf473d3e5534719c09f9d"
-  integrity sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==
 
 stylelint-config-recommended@^8.0.0:
   version "8.0.0"
@@ -6745,14 +6708,6 @@ stylelint-config-recommended@^9.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-9.0.0.tgz#1c9e07536a8cd875405f8ecef7314916d94e7e40"
   integrity sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==
 
-stylelint-config-standard-scss@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard-scss/-/stylelint-config-standard-scss-3.0.0.tgz#dafc4fa5538d0ed833bf0a7d391e075683ffd96c"
-  integrity sha512-zt3ZbzIbllN1iCmc94e4pDxqpkzeR6CJo5DDXzltshuXr+82B8ylHyMMARNnUYrZH80B7wgY7UkKTYCFM0UUyw==
-  dependencies:
-    stylelint-config-recommended-scss "^5.0.2"
-    stylelint-config-standard "^24.0.0"
-
 stylelint-config-standard-scss@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard-scss/-/stylelint-config-standard-scss-5.0.0.tgz#afc5e43c73e7a15875b8f30f54204b01a2634743"
@@ -6760,13 +6715,6 @@ stylelint-config-standard-scss@^5.0.0:
   dependencies:
     stylelint-config-recommended-scss "^7.0.0"
     stylelint-config-standard "^26.0.0"
-
-stylelint-config-standard@^24.0.0:
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-24.0.0.tgz#6823f207ab997ae0b641f9a636d007cc44d77541"
-  integrity sha512-+RtU7fbNT+VlNbdXJvnjc3USNPZRiRVp/d2DxOF/vBDDTi0kH5RX2Ny6errdtZJH3boO+bmqIYEllEmok4jiuw==
-  dependencies:
-    stylelint-config-recommended "^6.0.0"
 
 stylelint-config-standard@^26.0.0:
   version "26.0.0"
@@ -6844,20 +6792,6 @@ stylelint@^14.1.0:
     table "^6.8.0"
     v8-compile-cache "^2.3.0"
     write-file-atomic "^4.0.2"
-
-stylus@^0.55.0:
-  version "0.55.0"
-  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.55.0.tgz#bd404a36dd93fa87744a9dd2d2b1b8450345e5fc"
-  integrity sha512-MuzIIVRSbc8XxHH7FjkvWqkIcr1BvoMZoR/oFuAJDlh7VSaNJzrB4uJ38GRQa+mWjLXODAMzeDe0xi9GYbGwnw==
-  dependencies:
-    css "^3.0.0"
-    debug "~3.1.0"
-    glob "^7.1.6"
-    mkdirp "~1.0.4"
-    safer-buffer "^2.1.2"
-    sax "~1.2.4"
-    semver "^6.3.0"
-    source-map "^0.7.3"
 
 stylus@^0.57.0:
   version "0.57.0"
