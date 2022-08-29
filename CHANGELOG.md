@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/akijoey/stylelint-config/compare/v1.0.6...v1.0.7) (2022-08-29)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([1eee552](https://github.com/akijoey/stylelint-config/commit/1eee55259bc17d25d90218a96b343d5e47be5d96))
+
 ## [1.0.6](https://github.com/akijoey/stylelint-config/compare/v1.0.5...v1.0.6) (2022-04-06)
 
 
