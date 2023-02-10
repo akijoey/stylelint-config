@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/akijoey/stylelint-config/compare/v1.0.7...v1.0.8) (2023-02-10)
+
+
+### Bug Fixes
+
+* build badge ([5ce5b1a](https://github.com/akijoey/stylelint-config/commit/5ce5b1a590ac54020562fdde7d406aa971eca21d))
+
 ## [1.0.7](https://github.com/akijoey/stylelint-config/compare/v1.0.6...v1.0.7) (2022-08-29)
 
 
