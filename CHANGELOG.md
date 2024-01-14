@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/akijoey/stylelint-config/compare/v1.0.8...v1.1.0) (2024-01-14)
+
+
+### Features
+
+* less standard config ([50f7f58](https://github.com/akijoey/stylelint-config/commit/50f7f58ef161fdd4380423c530e6ba5899a65a0d))
+
 ## [1.0.8](https://github.com/akijoey/stylelint-config/compare/v1.0.7...v1.0.8) (2023-02-10)
 
 
