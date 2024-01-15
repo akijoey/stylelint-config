@@ -9,8 +9,7 @@ const extend = syntax => {
   return [
     'stylelint-config-standard',
     syntax && `./lib/${syntax}`,
-    'stylelint-config-recess-order',
-    'stylelint-config-prettier'
+    'stylelint-config-recess-order'
   ].filter(Boolean)
 }
 
