@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/akijoey/stylelint-config/compare/v1.1.0...v1.1.1) (2024-01-15)
+
+
+### Bug Fixes
+
+* remove prettier config ([5cc4a6d](https://github.com/akijoey/stylelint-config/commit/5cc4a6da95edc40165b3024dc3093e3df5374bdf))
+
 # [1.1.0](https://github.com/akijoey/stylelint-config/compare/v1.0.8...v1.1.0) (2024-01-14)
 
 
